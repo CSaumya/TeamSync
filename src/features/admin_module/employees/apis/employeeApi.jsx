@@ -1,6 +1,6 @@
 import { axiosInstance } from "../../../../config/axiosInstance";
 
-let getAllEmployees = async ({
+export let getAllEmployees = async ({
   page = 1,
   limit = 20,
   role = "",
